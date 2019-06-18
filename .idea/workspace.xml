@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="struts2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0fb70ea-1dbc-4805-a38e-1e09362fb3ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/IOrderItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/impl/OrderItemDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/impl/ProductDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/model/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/utils/DBCPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/utils/ManagerThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/utils/SendJMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/ActiveAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/AddCartAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/AddProductAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/AdminProductListAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/BatchDeleteProductAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/ChangeNumAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/CheckUserNameAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/CreateOrderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/DeleteProductByIdAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindOrderByIdAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindOrderByOrderIdAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindProductByIdAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindUserByIdAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/LogoutAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/ModifyUserInfoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/MyAccountAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/ProductInfoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/ProductListAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/RandomPictureAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/RegisterAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/SearchProductAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/SettleAccountAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/ShowProductByPageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/Action/UpdateProductAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/filter/CheckLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/filter/MyEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/store/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addCartSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap006.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/listStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/pignose.calender.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/simplyCountdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style002.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/000.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/2spcr2x158.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/Preloader_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/aaa.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/about.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ad_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ad_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ad_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/back1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ban3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ban4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ban5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ban6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/bottom_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/bt_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/bt_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/bt_icon_export.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_alert.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_cancel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_clock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_close01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_exit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_help.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_modi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_phone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_phone01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_print.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_save.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_search01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/button_view.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/clone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/digit-lg-dark.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/digit-lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/digit-lg.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/digit-md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/digit-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/digit-xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/hot2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/hotel_dire_arrowc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/i_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon-calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon-delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon-pencil-x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon-pencil.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon_time.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon_upfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/icon_zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/index_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/loginbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/me-work-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/menu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_002.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_003.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_05a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_05b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_05c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/mis_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/modernliving.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/modernliving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/optionbgOff.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/optionbgOn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/shim.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/t101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/tablehead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/time.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/timer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/top_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/top_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/top_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/top_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/work-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/SimpleChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/chart1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/circle_bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/kuma-gauge.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/percentage-circles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/pignose.calender.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/prettymaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/rumcaJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/simplyCountdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/skycons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/list2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/webfonts/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/creditly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/easy-responsive-tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery-ui1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/head2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/head3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/1/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/1/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/2/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/2/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/2/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/4/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bb/5/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/1/meitu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/2/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/2/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/2/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/3/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/4/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bl/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/botton_gif_025.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/close_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gif53_029.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gwc_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gwc_jx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/1/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/2/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/2/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/2/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/3/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/3/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/4/11 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/4/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/5/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/lg/zzbb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/miniicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/mya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/1/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/1/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/2/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/2/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/3/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/4/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/nerf/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/t101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tot666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tt2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/typo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/creditly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/easy-responsive-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/imagezoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.flexisel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/modifyUserInfoSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/modifyuserinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/myAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderInfo1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/yanzEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/IOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/IOrderItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/IProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/impl/OrderDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/impl/OrderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/impl/OrderItemDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/impl/ProductDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/exception/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/model/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/model/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/model/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/utils/DBCPUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/utils/ManagerThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/utils/SendJMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/ActiveAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/AddCartAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/AddProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/AdminProductListAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/BatchDeleteProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/ChangeNumAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/CheckUserNameAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/CreateOrderAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/DeleteProductByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/FindOrderByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/FindOrderByOrderIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/FindProductByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/FindUserByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/LoginAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/LogoutAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/ModifyUserInfoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/MyAccountAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/ProductInfoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/ProductListAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/RandomPictureAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/RegisterAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/SearchProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/SettleAccountAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/ShowProductByPageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/Action/UpdateProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/filter/CheckLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/filter/MyEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/store/web/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/IOrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/IOrderItemDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/IProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/impl/OrderDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/impl/OrderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/impl/OrderItemDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/impl/ProductDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/exception/UserException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/model/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/model/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/model/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/service/IOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/service/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/utils/DBCPUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/utils/ManagerThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/utils/SendJMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/ActiveAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/AddCartAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/AddProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/AdminProductListAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/BatchDeleteProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/ChangeNumAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/CheckUserNameAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/CreateOrderAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/DeleteProductByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/FindOrderByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/FindOrderByOrderIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/FindProductByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/FindUserByIdAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/LoginAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/LogoutAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/ModifyUserInfoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/MyAccountAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/ProductInfoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/ProductListAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/RandomPictureAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/RegisterAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/SearchProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/SettleAccountAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/ShowProductByPageAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/Action/UpdateProductAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/filter/CheckLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/filter/MyEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/com/store/web/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/dbcpconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/asm-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/asm-commons-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/asm-tree-3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-dbutils-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/javautil-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/javax.mail-api-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/jsonutil-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/log4j-api-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/mail-1.4.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/mysql-connector-java-6.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/smtp-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/struts2-core-2.3.16.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/struts2-json-plugin-2.3.16.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/lib/xwork-core-2.3.16.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/addCartSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/bootstrap006.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/listStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/pignose.calender.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/simplyCountdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/style002.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/style4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/000.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/2spcr2x158.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/Preloader_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/aaa.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/about.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ad_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ad_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ad_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/back1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ban3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ban4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ban5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/ban6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/bottom_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/bt_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/bt_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/bt_icon_export.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_alert.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_cancel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_clock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_close01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_exit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_help.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_modi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_phone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_phone01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_print.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_save.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_search01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/button_view.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/clone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/digit-lg-dark.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/digit-lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/digit-lg.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/digit-md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/digit-sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/digit-xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/hot2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/hotel_dire_arrowc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/i_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon-calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon-delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon-pencil-x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon-pencil.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon_time.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon_upfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/icon_zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/index_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/loginbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/me-work-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/menu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_002.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_003.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_05a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_05b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_05c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/mis_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/modernliving.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/modernliving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/optionbgOff.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/optionbgOn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/shim.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/t101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/tablehead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/time.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/timer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/top_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/top_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/top_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/top_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/work-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/images/zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/SimpleChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/chart1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/circle_bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/jquery.charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/kuma-gauge.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/percentage-circles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/pignose.calender.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/prettymaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/rumcaJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/simplyCountdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/js/skycons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/list2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/admin/webfonts/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/creditly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/easy-responsive-tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/jquery-ui1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/head2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/head3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/1/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/1/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/2/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/2/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/2/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/4/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bb/5/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/1/meitu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/2/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/2/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/2/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/3/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/4/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/bl/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/botton_gif_025.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/cc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/cc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/close_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/gif53_029.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/gwc_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/gwc_jx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/1/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/2/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/2/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/2/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/3/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/3/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/4/11 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/4/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/5/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/lg/zzbb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/miniicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/mya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/1/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/1/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/1/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/2/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/2/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/3/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/3/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/4/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/4/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/4/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/5/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/5/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/nerf/5/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/pp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/t101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/tot666.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/tt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/tt2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/images/typo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/creditly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/easy-responsive-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/imagezoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/jquery-2.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/jquery.flexisel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/json2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/modifyUserInfoSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/modifyuserinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/myAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/orderInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/orderInfo1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/product_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/product_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/struts2/yanzEmail.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="struts2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1111">
+              <caret line="288" column="50" selection-start-line="288" selection-start-column="50" selection-end-line="288" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2363">
+              <caret line="294" column="42" selection-start-line="294" selection-start-column="42" selection-end-line="294" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>slider-info</find>
+      <find>container py-xl-5 py-sm-3</find>
+      <find>sbmincart-footer</find>
+      <find>public Product findToy(String id) throws SQLException</find>
+      <find>public Product findToy(String id);</find>
+      <find>public Product findToy(String id)</find>
+      <find>checkout.html</find>
+      <find>${pageContext.request.contextPath}/</find>
+      <find>staplesbmincart</find>
+      <find>toys-cart ptoys-cart</find>
+      <find>changeNum</find>
+      <find>public void updatePNum(int produ</find>
+      <find>public List&lt;Product&gt; findAllProducts(</find>
+      <find>findAllProducts</find>
+      <find>public List&lt;Product&gt; findAllProducts()</find>
+      <find>findProductById</find>
+      <find>public Product findProductById(String id)</find>
+      <find>public void updateProduct</find>
+      <find>updateProduct</find>
+      <find>public void updateProduct(Product product) thro</find>
+      <find>deleteBookById</find>
+      <find>public void deleteBookById(String id)</find>
+      <find>deleteProductById</find>
+      <find>deleteProductByIds</find>
+      <find>findProduct</find>
+      <find>public List&lt;Product&gt; findProduct(String id, String name, String category,</find>
+      <find>findProductsByPage</find>
+      <find>public PageResult&lt;Product&gt; findProductsByPage(int page) throws SQLExce</find>
+      <find>img-toy-w3l-top</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindOrderByIdAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/modifyuserinfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/utils/ManagerThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindOrderByOrderIdAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderInfo1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/AddProductAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/ProductListAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindProductByIdAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/UpdateProductAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/DeleteProductByIdAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/BatchDeleteProductAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/SearchProductAction.java" />
+        <option value="$USER_HOME$/Desktop/Struts2_ExamineProject/src/com/examine/store/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/AdminProductListAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/dao/impl/ProductDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/message.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/list2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/modifyAdmininfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/FindAdminByIdAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/registerSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/filter/CheckLoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/dao/impl/PhotoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/product_info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderlist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/CheckUserNameAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/myAccount.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/Action/CreateOrderAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/store/web/filter/MyEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index2.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/MVNrep" />
+        <option name="mavenHome" value="/Library/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struts2 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struts2 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="351" />
+    <option name="width" value="1039" />
+    <option name="height" value="598" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/admin/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/bb" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/lg" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.store.web.Action" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/lg" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/lg/3" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="9.0.21" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/struts2_war_exploded/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="struts2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/struts2_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_struts2_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56666" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="struts2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0fb70ea-1dbc-4805-a38e-1e09362fb3ec" name="Default Changelist" comment="" />
+      <created>1560329421440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560329421440</updated>
+      <workItem from="1560329422675" duration="3954000" />
+      <workItem from="1560333500456" duration="30093000" />
+      <workItem from="1560392630855" duration="9177000" />
+      <workItem from="1560430156687" duration="745000" />
+      <workItem from="1560431008484" duration="2685000" />
+      <workItem from="1560443502952" duration="2579000" />
+      <workItem from="1560485182043" duration="6469000" />
+      <workItem from="1560500935222" duration="8539000" />
+      <workItem from="1560514138449" duration="1357000" />
+      <workItem from="1560515622329" duration="14899000" />
+      <workItem from="1560590884653" duration="5165000" />
+      <workItem from="1560597061364" duration="250000" />
+      <workItem from="1560597334776" duration="11687000" />
+      <workItem from="1560667047059" duration="3360000" />
+      <workItem from="1560670859105" duration="3940000" />
+      <workItem from="1560675911371" duration="4387000" />
+      <workItem from="1560690553695" duration="1147000" />
+      <workItem from="1560692105569" duration="968000" />
+      <workItem from="1560736881633" duration="1863000" />
+      <workItem from="1560749544305" duration="467000" />
+      <workItem from="1560750280074" duration="4047000" />
+      <workItem from="1560863220368" duration="1541000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="119319000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="25" y="351" width="1039" height="598" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.27983952" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5011655" side_tool="true" weight="0.16296296" />
+      <window_info id="Web" order="7" sideWeight="0.5011655" side_tool="true" weight="0.16296296" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990792" visible="true" weight="0.4624506" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50092083" side_tool="true" weight="0.31478772" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.35036495" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3293718" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32688767" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31478772" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.35139093" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32959446" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Struts2大作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="Struts2大作业" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/a3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/product_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/a4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/a6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/arr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/b1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/f3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/typo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/tt2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/tt1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/b2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/cc1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/a5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/b3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/g4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/a2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/f2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/web/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/bl/3/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/bl/4/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/bl/5/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/lg/3/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/lg/2/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/lg/4/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/lg/5/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/lg/1/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/bl/2/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/nerf/5/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/nerf/4/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/nerf/4/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/nerf/4/22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bookcover/101.jpg" />
+    <entry file="file://$USER_HOME$/Desktop/untitled folder/04.JavaWeb项目-书城/day01-20180408/bookstore/src/com/gyf/bookstore/web/servlet/ActiveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Struts2_ExamineProject/src/com/examine/store/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="128" column="199" selection-start-line="128" selection-start-column="199" selection-end-line="128" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="227" column="43" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/web/Action/CheckUserNameAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/myAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="205" column="43" selection-start-line="205" selection-start-column="43" selection-end-line="205" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/web/Action/CreateOrderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Struts2_ExamineProject/src/com/examine/store/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Struts2_ExamineProject/src/com/examine/store/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="138" column="24" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+          <folding>
+            <element signature="e#225#530#0" />
+            <element signature="e#553#895#0" />
+            <element signature="e#917#1155#0" />
+            <element signature="e#1175#2170#0" />
+            <element signature="e#2192#2445#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/store/web/filter/MyEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1111">
+          <caret line="288" column="50" selection-start-line="288" selection-start-column="50" selection-end-line="288" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2363">
+          <caret line="294" column="42" selection-start-line="294" selection-start-column="42" selection-end-line="294" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>struts2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <!--注册页面-->
+    <package name="re" namespace="/" extends="struts-default">
+        <action name="register" class="com.store.web.Action.RegisterAction" method="register">
+            <result name="success">registerSuccess.jsp</result>
+            <result name="error">register.jsp</result>
+        </action>
+    </package>
+
+    <!--注册验证码-->
+    <package name="randpicture" extends="struts-default">
+        <action name="rand" class="com.store.web.Action.RandomPictureAction">
+            <result type="stream">
+                <param name="contentType">image/jpeg</param>
+                <param name="inputName">inputStream</param>
+            </result>
+        </action>
+    </package>
+
+    <!--邮箱激活-->
+    <package name="yz" namespace="/" extends="struts-default">
+        <action name="active" class="com.store.web.Action.ActiveAction" method="active">
+            <result name="success">yanzEmail.jsp</result>
+        </action>
+    </package>
+
+    <!--登陆-->
+    <package name="log" namespace="/" extends="struts-default">
+
+<!--        <interceptors>-->
+<!--            <interceptor name="adminlogin" class="com.store.web.interceptor.LoginInterceptor"/>-->
+<!--            <interceptor-stack name="myStack">-->
+<!--                <interceptor-ref name="defaultStack"/>-->
+<!--                <interceptor-ref name="adminlogin"/>-->
+<!--            </interceptor-stack>-->
+<!--        </interceptors>-->
+<!--        <default-interceptor-ref name="myStack"/>-->
+<!--        <global-results>-->
+<!--            <result name="adminlogin">index.jsp</result>-->
+<!--        </global-re sults>-->
+
+        <action name="login" class="com.store.web.Action.LoginAction" method="login">
+            <!--通过重定向 type="redirect" 来禁止表单重新提交-->
+            <result name="success" type="redirect">index.jsp</result>
+            <result name="error" >index2.jsp</result>
+            <result name="admin" type="redirect">admin/home.jsp</result>
+        </action>
+    </package>
+
+    <!--ajax-->
+    <package name="ajax" namespace="/" extends="json-default">
+         <action name="checkUserName" class="com.store.web.Action.CheckUserNameAction" method="checkUserName">
+             <result name="success" type="json"/>
+         </action>
+    </package>
+
+    <!--myAccount-->
+    <package name="myacc" namespace="/" extends="struts-default">
+        <action name="myacount" class="com.store.web.Action.MyAccountAction" method="myacount">
+            <result name="success">myAccount.jsp</result>
+            <result name="error">index2.jsp</result>
+        </action>
+    </package>
+
+    <!--用户信息修改_回显-->
+    <package name="xgs" namespace="/" extends="struts-default">
+        <action name="findUserById" class="com.store.web.Action.FindUserByIdAction" method="findUserById">
+            <result name="success"> modifyuserinfo.jsp</result>
+        </action>
+    </package>
+
+    <!--用户信息修改-->
+    <package name="xg" namespace="/" extends="struts-default">
+        <action name="modifyUserInfo" class="com.store.web.Action.ModifyUserInfoAction" method="modifyUserInfo">
+            <result name="success" type="redirect">modifyUserInfoSuccess.jsp</result>
+        </action>
+    </package>
+
+    <!-- 注销-->
+    <package name="zx" namespace="/" extends="struts-default">
+        <action name="logout" class="com.store.web.Action.LogoutAction" method="logout">
+            <result  name="success" type="redirect">index.jsp</result>
+        </action>
+    </package>
+
+    <!--_________________________struts-product_____________________________-->
+
+
+    <!--玩具展示（列表）-->
+    <package name="xs" namespace="/" extends="struts-default">
+        <action name="showProductByPage" class="com.store.web.Action.ShowProductByPageAction" method="showProductByPage">
+            <result name="success">product_list.jsp</result>
+        </action>
+    </package>
+
+    <!--玩具展示（详情）-->
+    <package name="xq" namespace="/" extends="struts-default">
+        <action name="productInfo" class="com.store.web.Action.ProductInfoAction" method="productInfo">
+            <result name="success">product_info.jsp</result>
+        </action>
+    </package>
+
+
+    <!-- 添加购物车-->
+    <package name="tj" namespace="/" extends="struts-default">
+        <action name="addCart" class="com.store.web.Action.AddCartAction" method="addCart">
+            <result name="success" >addCartSuccess.jsp</result>
+        </action>
+    </package>
+
+    <!--购物车加减-->
+    <package name="cjj" namespace="/" extends="struts-default">
+        <action name="changeNum" class="com.store.web.Action.ChangeNumAction" method="changeNum">
+            <result name="success" type="redirect">cart.jsp</result>
+            <result name="error">404.jsp</result>
+        </action>
+    </package>
+
+    <!--购物车结算-->
+    <package name="js" namespace="/" extends="struts-default">
+        <action name="settleAccount" class="com.store.web.Action.SettleAccountAction" method="settleAccount">
+            <result name="success">order.jsp</result>
+            <result name="error" type="redirect">index.jsp</result>
+        </action>
+    </package>
+
+
+    <!--__________________________________struts-order________________________________________-->
+
+
+    <!--创建订单成功-->
+    <package name="tjdd">
+        <action name="createOrder" class="com.store.web.Action.CreateOrderAction" method="createOrder">
+        </action>
+    </package>
+
+    <!--查看订单列表通过ID-->
+    <package name="ckdd" namespace="/" extends="struts-default">
+        <action name="findOrderById" class="com.store.web.Action.FindOrderByIdAction" method="findOrderById">
+            <result name="error">404.jsp</result>
+            <result name="success">orderlist.jsp</result>
+        </action>
+    </package>
+
+    <!--查看订单信息By ID-->
+    <package name="ckddxx" namespace="/" extends="struts-default">
+        <action name="findOrderByOrderId" class="com.store.web.Action.FindOrderByOrderIdAction" method="findOrderByOrderId">
+            <result name="success">orderInfo.jsp</result>
+            <result name="paid">orderInfo1.jsp</result>
+        </action>
+    </package>
+
+
+    <!-- ______________________________admin________________________________________-->
+
+    <!-- 添加商品-->
+    <package name="tjsp" namespace="/" extends="struts-default">
+        <action name="addProduct" class="com.store.web.Action.AddProductAction" method="addProduct">
+            <result name="success">admin/list.jsp</result>
+        </action>
+    </package>
+
+    <!-- 商品列表-->
+    <package name="splist" namespace="/" extends="struts-default">
+        <action name="productList" class="com.store.web.Action.ProductListAction" method="productList">
+            <result name="success" >list.jsp</result>
+        </action>
+    </package>
+
+    <!--修改商品edit.jsp回显-->
+    <package name="xghx" namespace="/" extends="struts-default">
+        <action name="findProductById" class="com.store.web.Action.FindProductByIdAction" method="findProductById">
+            <result name="success" >admin/edit.jsp</result>
+        </action>
+    </package>
+
+    <!-- 修改商品-->
+    <package name="xgsp" namespace="/" extends="struts-default">
+        <action name="UpdateProduct" class="com.store.web.Action.UpdateProductAction" method="UpdateProduct">
+            <result name="success">admin/list.jsp</result>
+        </action>
+    </package>
+
+    <!-- 删除商品-->
+    <package name="del" namespace="/" extends="struts-default">
+        <action name="deleteProductById" class="com.store.web.Action.DeleteProductByIdAction" method="deleteProductById">
+            <result name="success" type="redirectAction">adminProductList</result>
+        </action>
+    </package>
+
+    <!--批量删除-->
+
+    <package name="pl" namespace="/" extends="struts-default">
+        <action name="batchDeleteProduct" class="com.store.web.Action.BatchDeleteProductAction" method="batchDeleteProduct">
+            <result name="success">admin/list.jsp</result>
+        </action>
+    </package>
+
+    <!--查找商品-->
+    <package name="ss" namespace="/" extends="struts-default">
+        <action name="searchProduct" class="com.store.web.Action.SearchProductAction" method="searchProduct">
+            <result name="success">admin/list2.jsp</result>
+        </action>
+    </package>
+
+    <!--分页查询-->
+    <package name="fy" namespace="/" extends="struts-default">
+        <action name="adminProductList" class="com.store.web.Action.AdminProductListAction" method="adminProductList">
+            <result name="success">admin/list.jsp</result>
+        </action>
+    </package>
+
+
+
+</struts>
